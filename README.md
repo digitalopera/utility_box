@@ -20,20 +20,20 @@ Or install it yourself as:
 
 ### Javascripts
 
-  - connection_manager
-  - ellipsis
-  - events
-  - form
-  - preload_images
-  - pusher
-  - strings
-  - tables
+  - [Connection Manager](https://github.com/digitalopera/utility_box/wiki/Connection-Manager)
+  - [Ellipsis](https://github.com/digitalopera/utility_box/wiki/Ellipsis)
+  - [Events](https://github.com/digitalopera/utility_box/wiki/Events)
+  - [Forms](https://github.com/digitalopera/utility_box/wiki/Forms)
+  - [Preload Images](https://github.com/digitalopera/utility_box/wiki/Preload-Images)
+  - [Pusher](https://github.com/digitalopera/utility_box/wiki/Pusher)
+  - [Strings](https://github.com/digitalopera/utility_box/wiki/Strings)
+  - [Tables](https://github.com/digitalopera/utility_box/wiki/Tables)
 
 ### Stylesheets
 
   - [Twitter Bootstrap SASS](https://github.com/thomas-mcdonald/bootstrap-sass)
   - [Font Awesome SASS](https://github.com/littlebtc/font-awesome-sass-rails)
-  - mixins
+  - [Mixins](https://github.com/digitalopera/utility_box/wiki/Mixins)
 
 ## Contributing
 
