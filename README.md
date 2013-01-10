@@ -31,6 +31,8 @@ Or install it yourself as:
 
 ### Stylesheets
 
+  - [Twitter Bootstrap SASS](https://github.com/thomas-mcdonald/bootstrap-sass)
+  - [Font Awesome SASS](https://github.com/littlebtc/font-awesome-sass-rails)
   - mixins
 
 ## Contributing

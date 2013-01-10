@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = UtilityBox::Rails::VERSION
   gem.platform      = Gem::Platform::RUBY
   gem.authors       = ["Grant Klinsing"]
-  gem.email         = ["grant@grantrklinsing.com"]
-  gem.description   = %q{CSS and JS utility toolbox}
-  gem.summary       = %q{CSS and JS utility toolbox}
+  gem.email         = ["grant@digitalopera.com"]
+  gem.description   = %q{CSS and JS utility toolbox for Rails}
+  gem.summary       = %q{Adds a bunch of utility Javascript and CSS scaffolding via Twiiter Bootstrap}
   gem.homepage      = ""
 
   gem.files         = Dir["{lib,app,vendor}/**/*"] +
