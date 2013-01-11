@@ -44,7 +44,7 @@ $.fn.ellipsify = () ->
   return @each () ->
     new UtilityBox.Animation.Ellipsify(@)
 
-$.fn.ellipsify.Constructor = Ellipsify
+$.fn.ellipsify.Constructor = UtilityBox.Animation.Ellipsify
 
 # Markup Bindings
 $(document).ready () ->
