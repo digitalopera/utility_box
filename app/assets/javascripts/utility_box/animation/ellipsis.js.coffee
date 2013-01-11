@@ -26,19 +26,18 @@ $ = jQuery
   constructor : UtilityBox.Animation.Ellipsify
 
   animate : () ->
+    _self   = @
     counter = 0
     timer   = setInterval () ->
-      console.log @
       counter++
       counter = 0 if counter > 3
       num     = 0
       arr     = []
       while num < counter
-        console.log @
         num++
         arr.push '.'
 
-        @ele.text arr.join('')
+        _self.ele.text arr.join('')
     , 750
 
 # jQuery Plugin Definition
