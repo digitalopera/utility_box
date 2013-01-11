@@ -18,7 +18,7 @@
 $ = jQuery
 
 @UtilityBox.Animation.Ellipsify = (element) ->
-  @ele      = element
+  @ele      = $ element
   @animate()
   return @
 
