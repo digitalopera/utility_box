@@ -19,8 +19,25 @@ Ellipsify = (element, options) ->
   @options  = options
   @ele      = element
 
+  @animate()
+  return @
+
 Ellipsify.prototype =
   constructor : Ellipsify
+
+  animate : () ->
+    counter = 0
+    timer   = setInterval () ->
+      counter++
+      counter = 0 if counter > 3
+      num     = 0
+      arr     = []
+      while num < counter
+        num++
+        arr.push '.'
+
+        @ele.text arr.join('')
+    , 750
 
 # jQuery Plugin Definition
 $.fn.ellipsify = () ->
@@ -39,20 +56,3 @@ $(document).ready () ->
     $(ele).ellipsify()
 
   return true
-
-
-$(document).ready () ->
-  $('[data-animate="ellipsis"]').each (idx, ele) ->
-    ellipsis  = $ ele
-    counter   = 0
-    timer     = setInterval () ->
-      counter++
-      counter = 0 if counter > 3
-      num     = 0
-      arr     = []
-      while num < counter
-        num++
-        arr.push '.'
-
-      ellipsis.text arr.join('')
-    , 750
