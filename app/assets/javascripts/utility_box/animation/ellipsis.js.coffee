@@ -37,7 +37,7 @@ $ = jQuery
         num++
         arr.push '.'
 
-        _self.ele.text arr.join('')
+        _self.ele.html arr.join('')
     , 750
 
 # jQuery Plugin Definition
