@@ -17,15 +17,13 @@
 ###
 $ = jQuery
 
-@UtilityBox.Animation.Ellipsify = (element, options) ->
-  @options  = options
+@UtilityBox.Animation.Ellipsify = (element) ->
   @ele      = element
-
   @animate()
   return @
 
 @UtilityBox.Animation.Ellipsify.prototype =
-  constructor : @UtilityBox.Animation.Ellipsify
+  constructor : UtilityBox.Animation.Ellipsify
 
   animate : () ->
     counter = 0
@@ -44,11 +42,7 @@ $ = jQuery
 # jQuery Plugin Definition
 $.fn.ellipsify = () ->
   return @each () ->
-    $this = @
-    data  = $this.data('ellipsify')
-    options = $.extend {}, $.fn.ellipsify.defaults, $this.data(), typeof option == 'object' && local(options)
-
-    $this.data('ellipsify', (data = new @UtilityBox.Animation.Ellipsify($this))) if !data
+    new UtilityBox.Animation.Ellipsify(@)
 
 $.fn.ellipsify.Constructor = Ellipsify
 
