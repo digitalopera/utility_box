@@ -1,4 +1,4 @@
-#= require utility_box/utility_box_namespace
+#= require utility_box/namespace
 #= require utility_box/forms
 
 # @class connectionManager

@@ -2,7 +2,7 @@
 # This file is used to establish a pusher connection and any defaults or
 # channel subscriptions that should be established globally for an artist.
 #
-#= require utility_box/utility_box_namespace
+#= require utility_box/namespace
 #= require pusher
 #
 
