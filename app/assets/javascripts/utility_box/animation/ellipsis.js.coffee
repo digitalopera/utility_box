@@ -49,7 +49,6 @@ $.fn.ellipsify.Constructor = UtilityBox.Animation.Ellipsify
 
 # Markup Bindings
 $(document).ready () ->
-  $('[data-animate=ellipsis]').each (idx, ele) ->
-    $(ele).ellipsify()
+  $('[data-animate=ellipsis]').ellipsify()
 
   return true
