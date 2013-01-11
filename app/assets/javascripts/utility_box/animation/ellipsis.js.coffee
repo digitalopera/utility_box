@@ -12,18 +12,20 @@
 # Etc..
 # ======================================================
 # Requires jQuery 1.8.x+
+#
+#= require ./namespace
 ###
 $ = jQuery
 
-Ellipsify = (element, options) ->
+@UtilityBox.Animation.Ellipsify = (element, options) ->
   @options  = options
   @ele      = element
 
   @animate()
   return @
 
-Ellipsify.prototype =
-  constructor : Ellipsify
+@UtilityBox.Animation.Ellipsify.prototype =
+  constructor : @UtilityBox.Animation.Ellipsify
 
   animate : () ->
     counter = 0
@@ -46,7 +48,7 @@ $.fn.ellipsify = () ->
     data  = $this.data('ellipsify')
     options = $.extend {}, $.fn.ellipsify.defaults, $this.data(), typeof option == 'object' && local(options)
 
-    $this.data('ellipsify', (data = new Ellipsify($this))) if !data
+    $this.data('ellipsify', (data = new @UtilityBox.Animation.Ellipsify($this))) if !data
 
 $.fn.ellipsify.Constructor = Ellipsify
 
