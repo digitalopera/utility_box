@@ -10,4 +10,4 @@ do ->
   key = $('meta[name=pusher-key]').attr('content')
 
   if key
-    window.utilityBox.pusher = new Pusher(key)
+    @UtilityBox.pusher = new Pusher(key)

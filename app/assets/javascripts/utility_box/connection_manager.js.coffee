@@ -31,7 +31,7 @@
 # conn.success(function(data){
 #   console.log(data)
 # });
-class window.utilityBox.connectionManager
+class @UtilityBox.connectionManager
 
   constructor : ->
     # gather tokens for each ajax call

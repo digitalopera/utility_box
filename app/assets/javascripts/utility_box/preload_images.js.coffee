@@ -4,7 +4,7 @@
 # urls [String, Array]
 # callback [Function]
 # callback fired when all images have loaded
-window.utilityBox.preloadImages = (urls, callback) ->
+@UtilityBox.preloadImages = (urls, callback) ->
   urls = [urls] if typeof urls == 'string'
   images = []
   loaded = 0

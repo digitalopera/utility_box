@@ -1,1 +1,0 @@
-window.utilityBox = window.utilityBox || {}

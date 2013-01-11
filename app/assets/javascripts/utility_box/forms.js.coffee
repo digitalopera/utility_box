@@ -23,7 +23,7 @@
 # person[last_name] = 'Klinsing'
 # person[meta][foo] = 'bar'
 # person[meta][test] = [100, 200]
-window.utilityBox.parameterizeObject = (data) ->
+@UtilityBox.parameterizeObject = (data) ->
   obj = {}
 
   accLoop = (key, val) ->
@@ -42,7 +42,7 @@ window.utilityBox.parameterizeObject = (data) ->
 
 # @method serializeForm
 # form [element|jQuery Element]
-window.utilityBox.serializeForm = (form) ->
+@UtilityBox.serializeForm = (form) ->
   obj = {}
   # if jQuery, break it down
   form = form[0] if form.jquery

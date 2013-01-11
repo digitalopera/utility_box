@@ -1,6 +1,11 @@
 # UtilityBox
 
-UtilityBox suppllies you will a bunch of CSS and Javascript niceties
+UtilityBox is a collection of Javascript and CSS helpers, tricks, and what-not's implemented
+by [Digital Opera](http://www.digitalopera.com).  Each feature built here has been used by us
+at some point in time in realworld projects.  We wanted to put those "nuggets" someplace where
+we could more easily pull them into new projects.
+
+We hope that you find it as useful and helpful as we do.
 
 ## Installation
 
@@ -29,11 +34,23 @@ Or install it yourself as:
   - [Strings](https://github.com/digitalopera/utility_box/wiki/Strings)
   - [Tables](https://github.com/digitalopera/utility_box/wiki/Tables)
 
+#### Storage Services
+  - HTML5 Session Storage Service (in-da-worx)
+  - Searchify Helpers (in-da-worx)
+
 ### Stylesheets
 
   - [Twitter Bootstrap SASS](https://github.com/thomas-mcdonald/bootstrap-sass)
   - [Font Awesome SASS](https://github.com/littlebtc/font-awesome-sass-rails)
   - [Mixins](https://github.com/digitalopera/utility_box/wiki/Mixins)
+
+## 3rd Pary what?
+
+Some of the "utilities" in here were designed to make working with various 3rd Party services
+easier and more enjoyable.  Here are the 3rd Party services that you'll find stuff for here:
+
+  - [Pusher](http://www.pusherapp.com) - HTML5 WebSockets
+  - [Searchify](http://www.searchify.com) - Super simple & fast full-text search
 
 ## Contributing
 
