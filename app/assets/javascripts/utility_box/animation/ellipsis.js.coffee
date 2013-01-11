@@ -27,7 +27,7 @@ $ = jQuery
 
   animate : () ->
     counter = 0
-    timer   = setInterval ->
+    timer   = setInterval () ->
       console.log @
       counter++
       counter = 0 if counter > 3
