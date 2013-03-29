@@ -7,7 +7,7 @@
 #
 
 do ->
-  key = $('meta[name=pusher-key]').attr('content')
+  key = $('meta[name="pusher-key"]').attr('content')
 
   if key
     window.utilityBox.pusher = new Pusher(key)
