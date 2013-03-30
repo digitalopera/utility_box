@@ -1,5 +1,4 @@
 require 'pusher_rails'
-require 'bootstrap-sass'
-require 'font-awesome-sass-rails'
+require 'twitter-bootstrap-rails'
 
-require "utility_box/rails"
+require 'utility_box/rails'

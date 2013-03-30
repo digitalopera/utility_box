@@ -1,6 +1,8 @@
 # UtilityBox
 
-UtilityBox suppllies you will a bunch of CSS and Javascript niceties
+UtilityBox adds a bunch of utility Javascript and CSS scaffolding via Twitter Bootstrap
+
+[![Gem Version](https://badge.fury.io/rb/utility_box.png)](http://badge.fury.io/rb/utility_box)
 
 ## Installation
 
@@ -31,9 +33,7 @@ Or install it yourself as:
 
 ### Stylesheets
 
-  - [Twitter Bootstrap SASS](https://github.com/thomas-mcdonald/bootstrap-sass)
-  - [Font Awesome SASS](https://github.com/littlebtc/font-awesome-sass-rails)
-  - [Mixins](https://github.com/digitalopera/utility_box/wiki/Mixins)
+  - [Twitter Bootstrap](https://github.com/seyhunak/twitter-bootstrap-rails)
 
 ## Contributing
 
