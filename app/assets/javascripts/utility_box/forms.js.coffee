@@ -59,5 +59,5 @@ window.utilityBox.serializeForm = (form) ->
 
   obj
 
-$(document).ready () ->
-  $('[data-is="datepicker"]').datepicker()
+$(document).ready ->
+  $('[data-is="datepicker"]').datepicker() if $.fn.datepicker?
